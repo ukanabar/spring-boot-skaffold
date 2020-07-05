@@ -3,20 +3,23 @@ Article Reference:
 https://itnext.io/continuous-spring-boot-deployment-in-kubernetes-using-jib-and-skaffold-11fd3c71d941
 
 Enable Kubernetes on Docker Desktop and follow below links:
+
 To Enable Kubernetes Dashboard:
 https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/#what-s-next
+
 Kubernetes Dashboard Authentication:
 https://www.replex.io/blog/how-to-install-access-and-add-heapster-metrics-to-the-kubernetes-dashboard
 
 Kubernetes Dashboard:
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
 
+To Run Kubernetes Dashboard:
 kubectl proxy
-
 Kubernetes Dashboard will be available at url displayed by previous command
 
 Steps:
 Install Docker Desktop
+
 Go to settings and enable Kubernetes and check all the checkboxes
 
 Install chocolatey https://chocolatey.org/docs/installation
